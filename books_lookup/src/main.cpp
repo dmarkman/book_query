@@ -20,7 +20,7 @@ public:
 
 /*
  * Google console: https://console.cloud.google.com/welcome?project=book-project-510619
- * key = AIzaSyDO5ZNbj5rzY97KN7dTKnP4qtb8EYZYPq8
+ * key = look in BBEdit note: books apple/kindle
  * could be get from environment
  * all parameters (title) should be UTF8 encoded
  */
