@@ -1,0 +1,16 @@
+# macOS metadata
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# Editors / IDEs
+.vscode/
+
+# Secrets / local config
+.env
+.env.*
