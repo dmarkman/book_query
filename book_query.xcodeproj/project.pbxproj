@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B2894C307311E000381C65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B28949307311E000381C65 /* main.cpp */; };
+		32B2894D307311E000381C65 /* books_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B28948307311E000381C65 /* books_api.cpp */; };
+		32B2895030731CA000381C65 /* libcurl.4.8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B2894F30731CA000381C65 /* libcurl.4.8.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32B2893B307310F600381C65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolder = None;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32B2893D307310F600381C65 /* book_query */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = book_query; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B28947307311E000381C65 /* books_api.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = books_api.hpp; sourceTree = "<group>"; };
+		32B28948307311E000381C65 /* books_api.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = books_api.cpp; sourceTree = "<group>"; };
+		32B28949307311E000381C65 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		32B2894F30731CA000381C65 /* libcurl.4.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcurl.4.8.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B2893A307310F600381C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				32B2895030731CA000381C65 /* libcurl.4.8.0.dylib in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B28934307310F600381C65 = {
+			isa = PBXGroup;
+			children = (
+				32B2894B307311E000381C65 /* books_lookup */,
+				32B2893E307310F600381C65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B2893E307310F600381C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B2893D307310F600381C65 /* book_query */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B2894A307311E000381C65 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				32B28947307311E000381C65 /* books_api.hpp */,
+				32B28948307311E000381C65 /* books_api.cpp */,
+				32B28949307311E000381C65 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		32B2894B307311E000381C65 /* books_lookup */ = {
+			isa = PBXGroup;
+			children = (
+				32B2894E30731BD800381C65 /* lib */,
+				32B2894A307311E000381C65 /* src */,
+			);
+			path = books_lookup;
+			sourceTree = "<group>";
+		};
+		32B2894E30731BD800381C65 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				32B2894F30731CA000381C65 /* libcurl.4.8.0.dylib */,
+			);
+			name = lib;
+			path = ../3p/curl/lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B2893C307310F600381C65 /* book_query */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B28944307310F600381C65 /* Build configuration list for PBXNativeTarget "book_query" */;
+			buildPhases = (
+				32B28939307310F600381C65 /* Sources */,
+				32B2893A307310F600381C65 /* Frameworks */,
+				32B2893B307310F600381C65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			name = book_query;
+			productName = book_query;
+			productReference = 32B2893D307310F600381C65 /* book_query */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B28935307310F600381C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					32B2893C307310F600381C65 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 32B28938307310F600381C65 /* Build configuration list for PBXProject "book_query" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B28934307310F600381C65;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 32B2893E307310F600381C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B2893C307310F600381C65 /* book_query */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B28939307310F600381C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				32B2894C307311E000381C65 /* main.cpp in Sources */,
+				32B2894D307311E000381C65 /* books_api.cpp in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32B28942307310F600381C65 /* Debug configuration for PBXProject "book_query" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32B28943307310F600381C65 /* Release configuration for PBXProject "book_query" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32B28945307310F600381C65 /* Debug configuration for PBXNativeTarget "book_query" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURL = /local_sandboxes/Development/Agentic/apple_kindle_books/3p/curl;
+				CURL_HEADERS = "$(CURL)/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(CURL)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(CURL)/lib",
+					"$(PROJECT_DIR)/3p/curl/lib",
+				);
+				NLOHMANN_HEADERS = "/local_sandboxes/Development/Agentic/apple_kindle_books/3p/nlohmann-json/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(CURL_HEADERS)",
+					"$(NLOHMANN_HEADERS)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CURL_HEADERS)",
+					"$(NLOHMANN_HEADERS)",
+				);
+			};
+			name = Debug;
+		};
+		32B28946307310F600381C65 /* Release configuration for PBXNativeTarget "book_query" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURL = /local_sandboxes/Development/Agentic/apple_kindle_books/3p/curl;
+				CURL_HEADERS = "$(CURL)/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(CURL)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(CURL)/lib",
+					"$(PROJECT_DIR)/3p/curl/lib",
+				);
+				NLOHMANN_HEADERS = "/local_sandboxes/Development/Agentic/apple_kindle_books/3p/nlohmann-json/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(CURL_HEADERS)",
+					"$(NLOHMANN_HEADERS)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"$(CURL_HEADERS)",
+					"$(NLOHMANN_HEADERS)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B28938307310F600381C65 /* Build configuration list for PBXProject "book_query" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B28942307310F600381C65 /* Debug configuration for PBXProject "book_query" */,
+				32B28943307310F600381C65 /* Release configuration for PBXProject "book_query" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		32B28944307310F600381C65 /* Build configuration list for PBXNativeTarget "book_query" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B28945307310F600381C65 /* Debug configuration for PBXNativeTarget "book_query" */,
+				32B28946307310F600381C65 /* Release configuration for PBXNativeTarget "book_query" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B28935307310F600381C65 /* Project object */;
+	validationLevel = 1;
+}

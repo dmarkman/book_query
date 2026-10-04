@@ -14,3 +14,11 @@ Icon?
 # Secrets / local config files
 .env
 .env.*
+
+# Build output
+build/
+DerivedData/
+
+# 3p libraries
+3p/
+
